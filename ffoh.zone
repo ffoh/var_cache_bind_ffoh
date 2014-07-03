@@ -1,0 +1,40 @@
+$ORIGIN ffoh.
+$TTL 10m ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
+ffoh. IN SOA gw1.ffoh. freifunk\.ostholstein@ffoh.freifunk.net. (
+              2 ; serial number of this zone file
+              1h ; slave refresh
+              3m ; slave retry time in case of a problem
+              1h ; slave expiration time
+              1m ; negative cache
+              )
+
+; nameservers
+ffoh. NS gw1
+ffoh. NS gw2
+ffoh. NS gw3
+ffoh. NS gw4
+
+; magic
+node A 10.135.0.1
+              AAAA fd73:111:e824::1
+
+; gateways
+gw1 A 10.135.0.8
+              AAAA fd73:111:e824::1:1
+gw2 A 10.135.0.16
+              AAAA fd73:111:e824::1:2
+gw3 A 10.135.0.24
+              AAAA fd73:111:e824::1:3
+gw4 A 10.135.0.32
+              AAAA fd73:111:e824::1:4
+gw5 A 10.135.0.40
+              AAAA fd73:111:e824::1:5
+gw6 A 10.135.0.48
+              AAAA fd73:111:e824::1:6
+gw7 A 10.135.0.56
+              AAAA fd73:111:e824::1:7
+
+; services
+
+www A 10.135.1.1
+              AAAA fd73:111:e824::11

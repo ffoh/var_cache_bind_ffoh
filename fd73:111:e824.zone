@@ -1,0 +1,34 @@
+$TTL 10m ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
+4.2.8.e.1.1.1.0.3.7.d.f.ip6.arpa. IN SOA gw1.ffoh. freifunk\.ostholstein.ostholstein.freifunk.net. (
+              2 ; serial number of this zone file
+              1h ; slave refresh
+              3m ; slave retry time in case of a problem
+              1h ; slave expiration time
+              1m ; negative cache
+              )
+
+              NS gw1.ffoh.
+              NS gw2.ffoh.
+              NS gw3.ffoh.
+
+; Anleitung mit Beispiel:
+; muehlentor ist fdef:ffc0:3dd7::a01
+; -> ist ausgeschrieben fdef:ffc0:3dd7:0000:0000:0000:0000:0a01
+; -> ohne die ersten 3 Abschnitte ist 0000:0000:0000:0000:0a01
+; -> umdrehen & mit Punkten formatieren ist 1.0.a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0
+; -> so eintragen
+
+; magic
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR node.ffoh.
+
+1.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw1.ffoh.
+2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw2.ffoh.
+3.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw3.ffoh.
+4.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw4.ffoh.
+5.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw5.ffoh.
+6.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw6.ffoh.
+7.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw7.ffoh.
+
+; services
+
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR www.ffoh.
