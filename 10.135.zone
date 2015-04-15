@@ -20,9 +20,10 @@ $TTL 10m ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 16.0 PTR gw2.ffoh.
 24.0 PTR gw3.ffoh.
 36.0 PTR gw4.ffoh.
-40.0 PTR gw5.ffoh.
-48.0 PTR gw6.ffoh.
-56.0 PTR gw7.ffoh.
+;40.0 PTR gw5.ffoh.
+;48.0 PTR gw6.ffoh.
+;56.0 PTR gw7.ffoh.
+128.0 PTR gw-test.ffoh.
 
 ; service
 1.1 PTR www.ffoh.

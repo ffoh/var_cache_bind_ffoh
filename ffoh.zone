@@ -1,7 +1,7 @@
 $ORIGIN ffoh.
 $TTL 10m ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffoh. IN SOA gw1.ffoh. freifunk\.ostholstein@ffoh.freifunk.net. (
-              2 ; serial number of this zone file
+              3 ; serial number of this zone file
               1h ; slave refresh
               3m ; slave retry time in case of a problem
               1h ; slave expiration time
@@ -27,12 +27,30 @@ gw3 A 10.135.0.24
               AAAA fd73:111:e824::1:3
 gw4 A 10.135.0.32
               AAAA fd73:111:e824::1:4
-gw5 A 10.135.0.40
-              AAAA fd73:111:e824::1:5
-gw6 A 10.135.0.48
-              AAAA fd73:111:e824::1:6
-gw7 A 10.135.0.56
-              AAAA fd73:111:e824::1:7
+;gw5 A 10.135.0.40
+;              AAAA fd73:111:e824::1:5
+;gw6 A 10.135.0.48
+;              AAAA fd73:111:e824::1:6
+;gw7 A 10.135.0.56
+;              AAAA fd73:111:e824::1:7
+;gw8 A 10.135.0.64
+;              AAAA fd73:111:e824::1:8
+;gw9 A 10.135.0.72
+;              AAAA fd73:111:e824::1:9
+;gw10 A 10.135.0.80
+;              AAAA fd73:111:e824::1:10
+;gw11 A 10.135.0.88
+;              AAAA fd73:111:e824::1:11
+;gw12 A 10.135.0.96
+;              AAAA fd73:111:e824::1:12
+;gw13 A 10.135.0.104
+;              AAAA fd73:111:e824::1:13
+;gw14 A 10.135.0.112
+;              AAAA fd73:111:e824::1:14
+;gw15 A 10.135.0.120
+;              AAAA fd73:111:e824::1:15
+gw-test A 10.135.0.128
+              AAAA fd73:111:e824::1:16
 
 ; services
 
