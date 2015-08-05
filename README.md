@@ -19,7 +19,7 @@ zone "4.2.8.e.1.1.1.0.3.7.d.f.ip6.arpa" IN {
         type master;
         file "ffoh/fd73:111:e824.zone";
         allow-transfer { any; };
-        allow-query { fd73:111:e824::/48; 2a00:12c0:1015:166::1:1/48; fe80::f8a8:f6ff:feed:ee2b/64; };
+        allow-query { ::1/64; fd73:111:e824::/48; 2a00:12c0:1015:166::1:1/48; fe80::f8a8:f6ff:feed:ee2b/64; };
 };
 
 EONAMED
