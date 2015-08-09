@@ -11,6 +11,7 @@ $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
               NS gw2.ffoh.
               NS gw3.ffoh.
               NS gw4.ffoh.
+              NS gw5.ffoh.
 
 ; magic
 1.0 PTR node.ffoh.
