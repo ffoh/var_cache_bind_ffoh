@@ -38,6 +38,12 @@ $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ;15.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw15.ffoh.
 16.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw-test.ffoh.
 
+1.2.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gattywatty01.ffoh.
+2.2.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gattywatty02.ffoh.
+3.2.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gattywatty03.ffoh.
+4.2.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gattywatty04.ffoh.
+5.2.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gattywatty05.ffoh.
+
 ; services
 
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR www.ffoh.

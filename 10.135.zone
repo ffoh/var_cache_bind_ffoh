@@ -25,5 +25,11 @@ $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 48.0 PTR gw6.ffoh.
 56.0 PTR gw7.ffoh.
 
+1.2 PTR gattywatty01.ffoh.
+2.2 PTR gattywatty02.ffoh.
+3.2 PTR gattywatty03.ffoh.
+4.2 PTR gattywatty04.ffoh.
+5.2 PTR gattywatty05.ffoh.
+
 ; service
 1.1 PTR www.ffoh.
