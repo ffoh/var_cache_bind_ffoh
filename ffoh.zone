@@ -1,7 +1,7 @@
 $ORIGIN ffoh.
 $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 ffoh. IN SOA gw1.ffoh. freifunk\.ostholstein@ffoh.freifunk.net. (
-              5 ; serial number of this zone file
+              6 ; serial number of this zone file
               1h ; slave refresh
               3m ; slave retry time in case of a problem
               1h ; slave expiration time
@@ -53,6 +53,13 @@ gw7 A 10.135.0.56
 ;              AAAA fd73:111:e824::1:15
 ;gw-test A 10.135.0.128
 ;              AAAA fd73:111:e824::1:16
+
+gattywatty01 A 10.135.2.1
+              AAAA fd73:111:e824::2:2
+gattywatty02 A 10.135.2.2
+              AAAA fd73:111:e824::2:2
+gattywatty03 A 10.135.2.3
+              AAAA fd73:111:e824::2:3
 
 ; services
 
