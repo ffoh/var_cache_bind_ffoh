@@ -1,6 +1,6 @@
 $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 135.10.in-addr.arpa. IN SOA gw1.ffoh. freifunk\.ostholtein.ostholstein.freifunk.net. (
-              3 ; serial number of this zone file
+              4 ; serial number of this zone file
               1h ; slave refresh
               3m ; slave retry time in case of a problem
               1h ; slave expiration time
@@ -27,8 +27,8 @@ $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 24.0 PTR gw3.ffoh.
 36.0 PTR gw4.ffoh.
 40.0 PTR gw5.ffoh.
-48.0 PTR gw6.ffoh.
-56.0 PTR gw7.ffoh.
+1.48 PTR gw6.ffoh.
+1.56 PTR gw7.ffoh.
 
 1.2 PTR gattywatty01.ffoh.
 2.2 PTR gattywatty02.ffoh.
