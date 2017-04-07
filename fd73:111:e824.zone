@@ -1,6 +1,6 @@
 $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
-4.2.8.e.1.1.1.0.3.7.d.f.ip6.arpa. IN SOA gw1.ffoh. freifunk\.ostholstein.ostholstein.freifunk.net. (
-              4 ; serial number of this zone file
+4.2.8.e.1.1.1.0.3.7.d.f.ip6.arpa. IN SOA gw1.ffoh. info.ostholstein.freifunk.net. (
+              5 ; serial number of this zone file
               1h ; slave refresh
               3m ; slave retry time in case of a problem
               1h ; slave expiration time
@@ -27,7 +27,7 @@ $TTL 3d ; FIXME: Sobald alles läuft auf ein paar Tage erhöhen!
 4.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw4.ffoh.
 5.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw5.ffoh.
 6.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw6.ffoh.
-7.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw7.ffoh.
+;7.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw7.ffoh.
 ;8.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw8.ffoh.
 ;9.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw9.ffoh.
 ;10.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 PTR gw10.ffoh.
