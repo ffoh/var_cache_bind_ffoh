@@ -78,3 +78,6 @@ www A 10.135.1.1
 2.updates.services AAAA fd73:111:e824::1:6 ; gw6
 6.updates15.services AAAA fd73:111:e824::11 ; www
 6.updates15all.services AAAA fd73:111:e824::11 ; www
+
+; custom services
+weather AAAA fd73:111:e824:0:21e:6ff:fe36:713d
